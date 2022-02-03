@@ -8,7 +8,7 @@ void setup() {
     fusorInit("GENERIC");
   
     // fixed analog input
-    fusorAddVariable("a0", FUSOR_VARTYPE_INT);            // read/write
+    fusorAddVariable("a0", FUSOR_VARTYPE_FLOAT);            // read/write
 
     // fixed digital i/o
     fusorAddVariable("d2", FUSOR_VARTYPE_BOOL);           // read/write, using d2 to stay away from d0 and d1 which are used for serial
